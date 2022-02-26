@@ -6,17 +6,30 @@ h1 {
     background-color: brown;
     color: blue;
     text-align: center;
+    text-transform: uppercase;
 }
 p {
     background-color: cornflowerblue;
     color: blue;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 ul {
     background-color: aquamarine;
-    color: blue;
+    
 }
-.img {
-
+li {
+    line-height: 30px;
+    color: blueviolet;
+}
+img {
+    height: 380px;
+    width: 250px;
+    border-radius: 80px;
+    border: 7px;
+    border-style: groove;
+    border-color: black;
 }
 
 
