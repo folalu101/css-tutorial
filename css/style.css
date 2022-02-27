@@ -1,35 +1,49 @@
 body {
-    background-color: purple;
-    color: blue;
+padding: 50px;
+margin: 50px;
+} 
+
+.object {
+    background-color: black;
+    color: white;
 }
-h1 {
-    background-color: brown;
-    color: blue;
-    text-align: center;
-    text-transform: uppercase;
-}
-p {
-    background-color: cornflowerblue;
-    color: blue;
-    text-align: right;
-    text-transform: uppercase;
-    font-size: 30px;
-}
-ul {
-    background-color: aquamarine;
+.object-child {
+    margin: 50px;
+    padding: 50px;
     
 }
-li {
-    line-height: 30px;
-    color: blueviolet;
+.center {
+    background-color: blue;
+    margin: 50px;
+    padding: 50px;
+}
+#list {
+    background-color: burlywood;
+    margin: 50px;
+    padding: 50px; 
+} 
+.sep {
+    background-color: black;
+    text-transform: capitalize;
+    text-decoration: solid;
+    color: darkolivegreen;
+}
+#list {
+    background-color: skyblue;
+    color: yellow;
+    line-height: 20px;
+    text-decoration: line-through;
+} 
+.show {
+    display: block;
+    margin-left: 220px;
+    margin-right: 100px;
+    width: 150px;
+    
 }
 img {
-    height: 380px;
-    width: 250px;
-    border-radius: 80px;
-    border: 7px;
-    border-style: groove;
-    border-color: black;
+    width: 600px;
+    height: 700px;
 }
 
 
